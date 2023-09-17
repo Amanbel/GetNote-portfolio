@@ -1,0 +1,56 @@
+.notes-list {
+    width: 800px;
+    margin: 50px auto 0 auto;
+    overflow-y: scroll;
+
+    .filters {
+        margin: 10px 0 20px 0;
+
+        h4 {
+            display: inline;
+            margin-right: 8px;
+            color: #ffb11f;
+            letter-spacing: 1px;
+        }
+
+        select {
+            margin-right: 17px;
+            border: 0;
+            background-color: #56585f;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            width: 140px;
+            height: 30px;
+        }
+
+        label {
+            margin-right: 10px;
+            font-size: 16px;
+            color: #ffb11f;
+        }
+
+        input {
+            padding: 2px 10px;
+            border: 0;
+            border-radius: 4px;
+            height: 30px;
+            background-color: #56585f;
+            color: white;
+        }
+    }
+    .notes-list-container {
+        display: flex;
+        flex-direction: column;
+        border-right: 2.5px solid rgba(255, 255, 255, 0.205);
+        border-left: 2.5px solid rgba(255, 255, 255, 0.205);
+        margin: 0 auto;
+        width: 100%;
+        align-items: center;
+        padding: 15px;
+        overflow-y: scroll;
+        min-height: 100vh;
+        max-height: 80vh;
+        // border: 1px solid black;
+    }
+}

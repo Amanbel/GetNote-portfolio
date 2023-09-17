@@ -1,0 +1,47 @@
+.profile-personal {
+    margin-top: 50px;
+    .profile-personal-container {
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: white;
+
+            span {
+                color: orange;
+                width: fit-content;
+                padding: 4px 12px;
+                font-size: 15px;
+                border-radius: 5px;
+                background-color: rgba(0, 0, 0, 0.363);
+            }
+        }
+        button {
+            border: 0;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 0 0 7px rgba(0, 0, 0, 0.822);
+            }
+        }
+
+        .change-pass {
+            width: 180px;
+            height: 24px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            background-color: lightblue;
+        }
+
+        .delete-btn {
+            width: 140px;
+            height: 27px;
+            background-color: rgb(253, 57, 57);
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,116 @@
+.signup {
+    // border: 1px solid black;
+    width: 35%;
+    margin: 40px auto 0 auto;
+    border-radius: 10px;
+
+    .signup-container {
+        // text-align: center;
+
+        h1 {
+            margin: 20px auto 0 auto;
+            // border: 1px solid black;
+            width: fit-content;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        
+            &:hover {
+                color: orange;
+                text-shadow: 0 0 16px rgba(0, 0, 0, 0.541);
+            }
+        }
+
+        form {
+            width: fit-content;
+            // border: 1px solid black;
+            margin: 0 auto;
+
+            .error-1 {
+                width: 100%;
+                background-color: rgba(255, 0, 0, 0.397);
+                border: 1px solid rgba(255, 0, 0, 0.753);
+                font-size: 14px;
+                padding: 6px;
+                margin-top: 10px;
+            }
+
+            .upload-picture {
+                display: block;
+                // margin: 15px auto 0 auto;
+                width: 100%;
+                position: relative;
+                background-color: rgba(0, 0, 0, 0.13);
+                padding: 7px 15px;
+                margin-top: 15px;
+                border-radius: 7px;
+                border: 0.5px solid rgba(0, 0, 0, 0.575);
+
+                label {
+                    font-size: 18px;
+                    color: white;
+                    display: block;
+                    font-weight: bold;
+                    // margin-bottom: 10px;
+                }
+
+                input {
+                    color: white;
+                    margin-top: 10px;
+                }
+
+                img {
+                    width: 120px;
+                    height: 120px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    margin: 0;
+                }
+            }
+
+            select {
+                border: 0;
+                background-color: rgba(0, 0, 0, 0.397);
+                color: white;
+                border-radius: 5px;
+                padding: 8px;
+                width: 200px;
+            }
+
+            .custom-btn, .back-btn {
+                margin-bottom: 6px;
+                width: 130px;
+                font-size: 17px;
+            }
+
+
+            .back-btn {
+                display: block;
+                margin: 10px auto;
+                height: 28px;
+                border-radius: 200px 6px 6px 200px;
+                border: 0;
+                background-color: #fdaf1f;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #fdaf1fc0;
+                }
+            }
+
+            p {
+                font-size: 11px;
+                width: fit-content;
+                margin: 0 auto 40px auto;
+                
+
+                span {
+                    color: orange;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

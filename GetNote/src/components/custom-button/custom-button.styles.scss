@@ -1,0 +1,17 @@
+.custom-btn {
+    border: 0;
+    border-radius: 7px;
+    background-color: #fdaf1f;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    padding: 7px 14px;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    color: #30292F;
+
+    &:hover {
+        background-color: #ffb938;
+    }
+}

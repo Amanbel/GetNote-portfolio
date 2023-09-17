@@ -1,0 +1,78 @@
+.author {
+    min-height: 100px;
+
+    .error {
+        background-color: rgba(255, 0, 0, 0.555);
+        width: 500px;
+        // height: 20px;
+        padding: 10px;
+        font-size: 15px;
+        border: 2px solid rgb(255, 0, 0);
+        border-radius: 5px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .author-info {
+    display: flex;
+    min-height: 100px;
+
+    img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 15px;
+        background-color: rgba(255, 255, 255, 0.76);
+    }
+    
+    .author-info-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 75px;
+        min-width: 230px;
+        color: white;
+
+        h3, h4, p {
+            font-size: 24px;
+            background-color: rgba(0, 0, 0, 0.171);
+            padding: 4px 14px 4px 10px;
+            border-radius: 7px;
+            margin-bottom: 3px;
+            width: fit-content;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .delete-btn, .update-btn {
+        height: 30px;
+        padding: 5px;
+        font-size: 13px;
+        min-width: 100px;
+        border: 0;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .update-btn {
+        margin: 0 20px 0 280px;
+        background-color: rgb(0, 170, 0);
+    }
+    .delete-btn {
+        background-color: rgba(253, 44, 44, 0.685);
+    }
+}
+}

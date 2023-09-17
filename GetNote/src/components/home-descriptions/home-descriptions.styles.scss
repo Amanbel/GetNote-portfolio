@@ -1,0 +1,32 @@
+.home-descriptions {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 1200px;
+    margin:0 auto;
+    justify-content: space-between;
+
+    .description {
+        display: flex;
+        color: white;
+
+        .desc-two-text {
+            margin-right: 38px;
+        }
+
+        .desc-one-text {
+            margin-left: 38px;
+        }
+
+        .desc-one-text, .desc-two-text {
+            h2 {
+                margin-bottom: 7px;
+            }
+        }
+        img {
+            width: 480px;
+            box-shadow: 0 0 9px rgba(0, 0, 0, 0.479);
+            border-radius: 8px;
+        }
+    }
+}

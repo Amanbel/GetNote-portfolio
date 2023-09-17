@@ -1,0 +1,25 @@
+.how-to-share {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 60px auto 0 auto;
+    color: white;
+
+    h2 {
+        font-size: 34px;
+    }
+
+    ul {
+        margin-top: 10px;
+        padding-left: 19px;
+        li {
+            list-style: decimal;
+            color: white;
+            margin-bottom: 7px;
+
+            b {
+                color: rgba(255, 166, 0, 0.877);
+            }
+        }
+    }
+}

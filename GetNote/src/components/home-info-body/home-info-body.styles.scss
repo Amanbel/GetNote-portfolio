@@ -1,0 +1,25 @@
+.home-info {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 100px auto;
+
+    .info {
+        width: 300px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.374);
+        color: white;
+        padding: 15px;
+        min-height: 400px;
+        background-color: rgba(255, 255, 255, 0.055);
+        border-radius: 4px;
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            font-size: 13.7px;
+            margin-top: 20px;
+        }
+    }
+}

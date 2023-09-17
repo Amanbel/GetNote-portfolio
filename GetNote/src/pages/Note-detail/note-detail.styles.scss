@@ -1,0 +1,36 @@
+.note-detail {
+    padding: 40px 0 0 80px;
+    .note-detail-container {
+
+        h1 {
+            color: white;
+            font-size: 37px;
+            padding: 8px;
+            text-transform: capitalize;
+            color: rgb(255, 178, 34);
+        }
+
+        hr {
+            width: 900px;
+        }
+        .author-note-description {
+            width: 900px;
+            margin: 10px 0 23px 0;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.123);
+            border-radius: 8px;
+            padding: 10px;
+            height: 160px;
+    
+            h3 {
+                margin-bottom: 4px;
+            }
+    
+            .note-desc {
+                height: 120px;
+                padding: 10px;
+                overflow-y: hidden;
+            }
+        }
+    }
+}

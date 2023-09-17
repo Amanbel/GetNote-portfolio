@@ -1,0 +1,96 @@
+.edit-account {
+    width: 60%;
+    margin: 50px 0 0 50px;
+
+    .edit-account-container {
+        width: 60%;
+        // border: 1px solid black;
+        margin-left: 100px;
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            // border: 1px solid black;
+            padding: 28px;
+            box-shadow: 0 0 7px rgba(0, 0, 0, 0.61);
+            border-radius: 5px;
+
+            .img-update {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .error-1 {
+                width: 100%;
+                background-color: rgba(255, 0, 0, 0.397);
+                border: 1px solid rgba(255, 0, 0, 0.753);
+                font-size: 14px;
+                padding: 6px;
+                margin-top: 10px;
+            }
+
+            input {
+                height: 38px;
+                font-size: 15px;
+                border: 0;
+                border-radius: 5px;
+                background-color: rgba(0, 0, 0, 0.384);
+                padding: 8px;
+                color: white;
+            }
+            label {
+                margin: 10px 0 5px 0;
+                color: orange;
+                font-size: 17px;
+            }
+
+            input:focus {
+                outline: 1px solid orange;
+            }
+
+            #up_img {
+                padding: 5px;
+            }
+
+            #up_username {
+                width: 40%;
+            }
+
+            .btn-container {
+                display: flex;
+                width: 50%;
+                justify-content: space-between;
+                margin-top: 30px;
+                align-self: flex-end;
+
+                .save-btn {
+                    width: 100px;
+                    height: 25px;
+                    font-size: 14px;
+                    background-color: orange;
+                    border: 0;
+                    border-radius: 5px;
+                }
+
+                .cancel-btn {
+                    width: 100px;
+                    height: 25px;
+                    font-size: 14px;
+                    background-color: rgba(69, 128, 255, 0.664);
+                    color: white;
+                    border: 0;
+                    border-radius: 5px;
+                }
+
+                .save-btn, .cancel-btn {
+                    transition: all 0.4s ease;
+
+                    &:hover {
+                        box-shadow: 0 0 7px rgba(0, 0, 0, 0.363);
+                        transform: scale(1.06);
+                    }
+                }
+            }
+        }
+    }
+}
